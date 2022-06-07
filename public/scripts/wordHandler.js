@@ -32,6 +32,7 @@ export function checkLetterExists(word, letter) {
   for (let i = 0; i < word.length; i++) {
     if (word[i].toUpperCase() == letter.toUpperCase()) {
       exists = true;
+      break;
     }
   }
   return exists;
