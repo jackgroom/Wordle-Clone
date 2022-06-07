@@ -76,7 +76,7 @@ export default class Game {
       console.log('well done.');
       this.displayResult(guess);
     } else {
-      console.log("you're retarded");
+      console.log("ynice try");
       this.displayResult(guess);
       this.tries--;
       this.currentAttempt = [];
