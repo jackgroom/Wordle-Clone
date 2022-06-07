@@ -20,6 +20,7 @@ export async function checkWordExists(searchWord) {
   words.forEach((word) => {
     if (word.toUpperCase() === searchWord.toUpperCase()) {
       found = true;
+      break;
     }
   });
 
