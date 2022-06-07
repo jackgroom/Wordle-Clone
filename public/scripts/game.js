@@ -76,7 +76,7 @@ export default class Game {
       console.log('well done.');
       this.displayResult(guess);
     } else {
-      console.log("ynice try");
+      console.log("nice try");
       this.displayResult(guess);
       this.tries--;
       this.currentAttempt = [];
